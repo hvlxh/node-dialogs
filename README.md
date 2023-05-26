@@ -13,7 +13,7 @@
 <h3 align="center">better-dialog</h3>
   
   <p align="center">
-    A way to create dialogs easier!
+    A way to create windows forums (also unix) easier!
     <br />
     <a href="https://github.com/hvlxh/better-dialog/issues">Report Bug</a>
     ·
