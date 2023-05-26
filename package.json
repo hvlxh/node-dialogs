@@ -1,7 +1,7 @@
 {
   "name": "better-dialog",
-  "version": "1.0.0",
-  "description": "A advanced template with eslint + prettier",
+  "version": "1.0.1",
+  "description": "A way to create dialogs easier!",
   "main": "index.js",
   "scripts": {
     "format:check": "prettier --check .",
@@ -13,9 +13,17 @@
     "dev": "nodemon .",
     "test": "npm run build:fix"
   },
-  "keywords": [],
+  "keywords": [
+    "windows",
+    "ubuntu",
+    "unix",
+    "macos",
+    "dialog",
+    "vbscript",
+    "vbs"
+  ],
   "author": "hvlxh",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.1.4",
     "better-dialog": "file:",
@@ -24,5 +32,15 @@
     "eslint-plugin-import": "^2.27.5",
     "nodemon": "^2.0.22",
     "prettier": "^2.8.8"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/hvlxh/better-dialog/issues"
+  },
+  "repository": {
+    "url": "https://github.com/hvlxh/better-dialog",
+    "type": "git"
   }
 }
