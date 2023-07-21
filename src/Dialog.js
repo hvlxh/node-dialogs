@@ -8,7 +8,7 @@ class Dialog {
     defaultButtonType;
 
     constructor(title, message, buttonType, iconType, defaultButtonType) {
-        if(typeof title === "object") {
+        if (typeof title === "object") {
             if(!title["message"]) throw new Error('"message" arg is not available')
             if(!title["title"]) throw new Error('"title" arg is not available')
 
@@ -47,8 +47,8 @@ class Dialog {
     }
 
     run() {
-        if(typeof this.message !== 'string') throw new Error('"message" is undefined')
-        if(typeof this.title !== 'string') throw new Error('"title" is undefined')
+        if (typeof this.message !== 'string') throw new Error('"message" is undefined')
+        if (typeof this.title !== 'string') throw new Error('"title" is undefined')
         const { message, title, buttonType, defaultButtonType, iconType } = this
 
         return showDialog(message, title, buttonType, defaultButtonType, iconType)
