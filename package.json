@@ -1,46 +1,42 @@
 {
-  "name": "better-dialog",
-  "version": "1.0.1",
-  "description": "A way to create dialogs easier!",
+  "name": "node-dialogs",
+  "version": "1.0.0",
+  "description": "An package to send windows dialogs, etc",
   "main": "index.js",
   "scripts": {
-    "format:check": "prettier --check .",
-    "format:fix": "prettier --write .",
-    "lint:check": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "build": "npm run lint:check && npm run format:check",
-    "build:fix": "npm run lint:fix && npm run format:fix",
-    "dev": "nodemon .",
-    "test": "npm run build:fix"
+    "build": "node-gyp configure && node-gyp build",
+    "pack": "npm pack"
+  },
+  "binary": {
+    "module_name": "node-dialogs",
+    "module_path": "build/Release", 
+    "module": "dialog.node", 
+    "host": "https://nodejs.org/dist", 
+    "remote_path": "./<package-name>/v<version>/", 
+    "package_name": "<package-name>-v<version>-<node_abi>-<platform>-<arch>.tar.gz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hvlxh/node-dialogs.git"
   },
   "keywords": [
     "windows",
-    "ubuntu",
+    "mac",
     "unix",
-    "macos",
+    "linux",
+    "forms",
     "dialog",
-    "vbscript",
-    "vbs"
+    "form",
+    "dialogs"
   ],
   "author": "hvlxh",
   "license": "MIT",
-  "devDependencies": {
-    "@types/node": "^20.1.4",
-    "better-dialog": "file:",
-    "eslint": "^8.40.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
-    "nodemon": "^2.0.22",
-    "prettier": "^2.8.8"
-  },
-  "engines": {
-    "node": ">=16.0.0"
-  },
   "bugs": {
-    "url": "https://github.com/hvlxh/better-dialog/issues"
+    "url": "https://github.com/hvlxh/node-dialogs/issues"
   },
-  "repository": {
-    "url": "https://github.com/hvlxh/better-dialog",
-    "type": "git"
-  }
+  "homepage": "https://github.com/hvlxh/node-dialogs#readme",
+  "dependencies": {
+    "node-addon-api": "^7.0.0"
+  },
+  "gypfile": true
 }

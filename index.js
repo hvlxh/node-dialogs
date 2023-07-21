@@ -1,17 +1,9 @@
-const {
-  DialogBtnTypes,
-  DialogDefaultBtnTypes,
-  DialogType,
-  DialogTypes,
-  DialogButtons,
-} = require('./root/src/DialogTypes')
-const { Dialog } = require('./root/src/Dialog')
+const Dialog = require('./src/Dialog')
+const { DefaultButtonTypes, ButtonTypes, IconTypes } = require('./src/DialogTypes')
 
 module.exports = {
-  Dialog,
-  DialogTypes,
-  DialogType,
-  DialogDefaultBtnTypes,
-  DialogBtnTypes,
-  DialogButtons,
+    Dialog,
+    ButtonTypes,
+    IconTypes,
+    DefaultButtonTypes
 }

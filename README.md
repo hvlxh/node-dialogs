@@ -6,20 +6,20 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/hvlxh/better-dialog">
+  <a href="https://github.com/hvlxh/node-dialogs">
     <img src="assets/icon.png" alt="Image" width=200>
   </a>
   
-<h3 align="center">better-dialog</h3>
+<h3 align="center">node-dialogs</h3>
   
   <p align="center">
-    A way to create windows forums (also unix) easier!
+    A way to create windows forums (currenting supporting windows only) easier!
     <br />
-    <a href="https://github.com/hvlxh/better-dialog/issues">Report Bug</a>
+    <a href="https://github.com/hvlxh/node-dialogs/issues">Report Bug</a>
     ·
-    <a href="https://github.com/hvlxh/better-dialog/issues">Request Feature</a>
+    <a href="https://github.com/hvlxh/node-dialogs/issues">Request Feature</a>
     .
-    <a href="https://github.com/hvlxh/better-dialog/pulls">Pull Request</a>
+    <a href="https://github.com/hvlxh/node-dialogs/pulls">Pull Request</a>
   </p>
 </div>
 
@@ -49,13 +49,13 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/hvlxh/better-dialog.svg?style=for-the-badge
-[contributors-url]: https://github.com/hvlxh/better-dialog/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/hvlxh/better-dialog.svg?style=for-the-badge
-[forks-url]: https://github.com/hvlxh/better-dialog/network/members
-[stars-shield]: https://img.shields.io/github/stars/hvlxh/better-dialog.svg?style=for-the-badge
-[stars-url]: https://github.com/hvlxh/better-dialog/stargazers
-[issues-shield]: https://img.shields.io/github/issues/hvlxh/better-dialog.svg?style=for-the-badge
-[issues-url]: https://github.com/hvlxh/better-dialog/issues
-[license-shield]: https://img.shields.io/github/license/hvlxh/better-dialog.svg?style=for-the-badge
-[license-url]: https://github.com/hvlxh/better-dialog/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/hvlxh/node-dialogs.svg?style=for-the-badge
+[contributors-url]: https://github.com/hvlxh/node-dialogs/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/hvlxh/node-dialogs.svg?style=for-the-badge
+[forks-url]: https://github.com/hvlxh/node-dialogs/network/members
+[stars-shield]: https://img.shields.io/github/stars/hvlxh/node-dialogs.svg?style=for-the-badge
+[stars-url]: https://github.com/hvlxh/node-dialogs/stargazers
+[issues-shield]: https://img.shields.io/github/issues/hvlxh/node-dialogs.svg?style=for-the-badge
+[issues-url]: https://github.com/hvlxh/node-dialogs/issues
+[license-shield]: https://img.shields.io/github/license/hvlxh/node-dialogs.svg?style=for-the-badge
+[license-url]: https://github.com/hvlxh/node-dialogs/blob/master/LICENSE
