@@ -2,10 +2,9 @@
   "name": "node-dialogs",
   "version": "1.0.1",
   "description": "An package to send windows dialogs, etc",
-  "main": "index.js",
-  "typings": "index.d.ts",
+  "main": "build/native",
   "scripts": {
-    "build": "node-gyp configure && node-gyp build",
+    "build": "node-gyp configure && node-gyp build && tsc",
     "pack": "npm pack"
   },
   "binary": {
@@ -38,7 +37,11 @@
   "homepage": "https://github.com/hvlxh/node-dialogs#readme",
   "dependencies": {
     "node-addon-api": "^7.0.0",
-    "node-gyp": "^9.4.0"
+    "node-gyp": "^9.4.0",
+    "typescript": "^5.1.6"
   },
-  "gypfile": true
+  "gypfile": true,
+  "devDependencies": {
+    "@types/node": "^20.4.5"
+  }
 }

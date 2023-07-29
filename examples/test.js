@@ -1,4 +1,4 @@
-const { Dialog, ButtonClickedTypes } = require('../index')
+const { Dialog, ButtonClickedTypes } = require('../build/native')
 
 const dialog = new Dialog({
     title: "Title", 
