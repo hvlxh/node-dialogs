@@ -1,17 +1,11 @@
-[![Contributors][contributors-shield]][contributors-url]</a>
+[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
-<br />
 <div align="center">
-  <a href="https://github.com/hvlxh/node-dialogs">
-    <img src="assets/icon.png" alt="Image" width=200>
-  </a>
-  
-<h3 align="center">node-dialogs</h3>
-  
+  <h3 align="center">node-dialogs</h3>
   <p align="center">
     A way to create windows forums (currenting supporting windows only) easier!
     <br />
@@ -23,9 +17,14 @@
   </p>
 </div>
 
-## Getting Start
+## Installation
+1. Create a nodejs project (`npm init -y`)
+2. Install node-dialogs (`npm i node-dialogs`)
+3. Write the code ([`example`](https://github.com/hvlxh/node-dialogs/blob/main/examples/test.js))
+4. Run it!
 
-See the examples.
+## Examples
+Check the [`examples`](https://github.com/hvlxh/node-dialogs/tree/main/examples) directory
 
 ## Contributing
 
@@ -40,14 +39,9 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<!-- LICENSE -->
-
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/hvlxh/node-dialogs.svg?style=for-the-badge
 [contributors-url]: https://github.com/hvlxh/node-dialogs/graphs/contributors
