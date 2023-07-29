@@ -7,7 +7,7 @@
 <div align="center">
   <h3 align="center">node-dialogs</h3>
   <p align="center">
-    A way to create windows forums (currenting supporting windows only) easier!
+    A library to create dialog boxes for Windows, macOS, and Linux, making the process easier!
     <br />
     <a href="https://github.com/hvlxh/node-dialogs/issues">Report Bug</a>
     ·
@@ -18,17 +18,17 @@
 </div>
 
 ## Installation
-1. Create a nodejs project (`npm init -y`)
+1. Create a Node.js project (`npm init -y`)
 2. Install node-dialogs (`npm i node-dialogs`)
-3. Write the code ([`example`](https://github.com/hvlxh/node-dialogs/blob/main/examples/test.js))
+3. Write the code ([example](https://github.com/hvlxh/node-dialogs/blob/main/examples/test.js))
 4. Run it!
 
 ## Examples
-Check the [`examples`](https://github.com/hvlxh/node-dialogs/tree/main/examples) directory
+Check the [/examples directory](https://github.com/hvlxh/node-dialogs/tree/main/examples).
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
