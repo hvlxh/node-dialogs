@@ -1,6 +1,6 @@
 {
   "name": "node-dialogs",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "An package to send windows dialogs, etc",
   "main": "build/",
   "scripts": {
