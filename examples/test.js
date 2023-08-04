@@ -1,11 +1,9 @@
-const { Dialog, ButtonClickedTypes } = require('../index')
+const { Dialog, ButtonTypes, IconTypes } = require('../build')
 
-const dialog = new Dialog({
-    title: "Title", 
-    message: "Hello"
-})
-
-const value = dialog.run()
-if(value === ButtonClickedTypes.Ok) {
-    dialog.run()
+async function main() {
+    const dialog = new Dialog("Test", "Hello!", ButtonTypes.Ok, IconTypes.Information)
+    const value = await dialog.run()
+    console.log(value)
 }
+
+main()

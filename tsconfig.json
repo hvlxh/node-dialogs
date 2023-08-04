@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "NodeNext",
+        "target": "ES6",
+        "lib": ["ESNext"],
+        "declaration": true,
+        "inlineSourceMap": true,
+        "rootDir": "src",
+        "outDir": "build/",
+        "strict": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": false,
+		"alwaysStrict": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+    }
+}
