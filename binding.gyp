@@ -9,7 +9,7 @@
       ],
       "dependencies": [
         "<!(node -p \"require('node-addon-api').gyp\")"
-      ]
+      ],
       "conditions": [
         ["OS=='mac'", {
           "xcode_settings": {

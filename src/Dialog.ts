@@ -1,6 +1,6 @@
 // @ts-ignore
-import { showDialog } from '../build/Release/dialog';
-import { ButtonTypes, IconTypes, DefaultButtonTypes} from './DialogTypes'
+import { showDialog } from '../build/Release/dialog.node';
+import { ButtonTypes, IconTypes, DefaultButtonTypes, ButtonClickedTypes} from './DialogTypes'
 
 export class Dialog {
     private message: string;
@@ -34,31 +34,79 @@ export class Dialog {
         }
     }
 
-    setTitle(title: string) {
+    /**
+     * Set the title of the dialog.
+     * 
+     * @param title An parameter to set the title.
+     * @returns The Dialog class
+     */
+    setTitle(title: string): Dialog {
         this.title = title
+
+        return this;
     }
 
-    setMessage(message: string) {
+    /**
+     * Set the message of the dialog.
+     * 
+     * @param message An parameter to set the message
+     * @returns The Dialog class
+     */
+    setMessage(message: string): Dialog {
         this.message = message
+
+        return this;
     }
 
-    setButtonType(buttonType: ButtonTypes) {
+    /**
+     * Set the button type of the dialog.
+     * 
+     * @param buttonType An parameter to set the button type of the dialog.
+     * @returns The Dialog class
+     */
+    setButtonType(buttonType: ButtonTypes): Dialog {
         this.buttonType = buttonType
+
+        return this;
     }
 
-    setDefaultButtonType(defaultButtonType: DefaultButtonTypes) {
+    /**
+     * Set the default button type of the dialog.
+     * 
+     * @param defaultButtonType An parameter to set the default button type of the dialog.
+     * @returns The Dialog class
+     */
+    setDefaultButtonType(defaultButtonType: DefaultButtonTypes): Dialog {
         this.defaultButtonType = defaultButtonType
+
+        return this;
     }
 
-    setIconType(iconType: IconTypes) {
+    /**
+     * Set the icon type of the dialog
+     * 
+     * @param iconType An parameter to set the icon type of the dialog.
+     * @returns The Dialog class.
+     */
+    setIconType(iconType: IconTypes): Dialog {
         this.iconType = iconType
+
+        return this;
     }
 
-    run() {
+    /**
+     * Run this function to show the dialog.
+     * 
+     * @returns Shows the dialog.
+     */
+    run(): Promise<ButtonClickedTypes> {
         if(typeof this.message != 'string') throw new Error('"message" is undefined')
         if(typeof this.title != 'string') throw new Error('"title" is undefined')
         const { message, title, buttonType, defaultButtonType, iconType } = this
 
-        return showDialog(message, title, buttonType, defaultButtonType, iconType)
+        return new Promise<ButtonClickedTypes>((resolve) => {
+            const value = showDialog(title, message, buttonType, defaultButtonType, iconType)
+            resolve(value)
+        })
     }
 }

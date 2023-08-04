@@ -7,7 +7,7 @@
         "declaration": true,
         "inlineSourceMap": true,
         "rootDir": "src",
-        "outDir": "build/native",
+        "outDir": "build/",
         "strict": true,
 		"noImplicitAny": true,
 		"strictNullChecks": true,
